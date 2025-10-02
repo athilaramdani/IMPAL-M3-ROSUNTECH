@@ -2,12 +2,16 @@
 
 ## 📌 Deskripsi Soal
 
-Buat program untuk sistem transaksi pelanggan dengan **precondition** dan **postcondition** berikut:
+Program ini adalah **sistem transaksi pelanggan untuk layanan servis komputer**.  
+Dibuat dengan bahasa **C** untuk mensimulasikan logika **Precondition & Postcondition** berikut:
 
-- **Precondition 1**: Customer datang dengan `account-number` yang ada di daftar **ACCOUNTS** dan memiliki `status-code = "valid"`.
-- **Postcondition 1**: Jika precondition 1 terpenuhi → **Invoice diproduksi** yang berisi `account-number` dan `amount-of-sale`.
-- **Precondition 2**: Precondition 1 gagal (akun tidak ditemukan **atau** `status-code ≠ "valid"`).
-- **Postcondition 2**: Jika precondition 2 → **tampilkan error message**.
+- **Precondition 1**  
+  Jika `account-number` ditemukan dalam database **dan** statusnya `"valid"`, maka program akan menghasilkan **Invoice**.  
+  - **Postcondition 1** → Invoice dicetak ke layar.  
+
+- **Precondition 2**  
+  Jika akun **tidak ditemukan** atau statusnya bukan `"valid"`, maka transaksi gagal.  
+  - **Postcondition 2** → Program menampilkan **error message**.  
 
 ---
 
@@ -81,10 +85,12 @@ typedef struct {
 
 | Fungsi | Deskripsi |
 |--------|-----------|
-| `initializeAccounts()` | Inisialisasi 5 akun default |
-| `findAccount()` | Mencari akun berdasarkan account number |
-| `processTransaction()` | Memproses transaksi sesuai pre/post conditions |
-| `printInvoice()` | Mencetak invoice |
+| `initAccounts()` | Mengisi data awal (database akun) dengan beberapa account number & status |
+| `findAccount()` | Mencari akun berdasarkan nomor akun |
+| `isValidStatus()` | Mengecek apakah status akun adalah "valid" |
+| `printInvoice()` | Menampilkan invoice dengan format rapi |
+| `process()` | Fungsi utama untuk menjalankan logika pre/post condition:
+validasi akun, cek status, dan buat invoice jika valid |
 
 ---
 
@@ -196,8 +202,9 @@ Program otomatis menginisialisasi 5 akun:
 
 ---
 
-## 🎯 Fitur Program
+## 🎯 Fitur Tambahan
 
-- ✅ Validasi account number (cek keberadaan)
-- ✅ Validasi status code (harus "valid")
-- ✅
+- ✅ Database Akun Simulasi : Terdapat 5 akun dengan status berbeda (valid, invalid, suspended).
+- ✅ Menu Transaksi Interaktif: User bisa melakukan transaksi berkali-kali tanpa perlu restart program.
+- ✅ Validasi Input : Amount tidak boleh negatif dan input account number tidak boleh kosong.
+- ✅ Invoice dengan Format yang Rapi
