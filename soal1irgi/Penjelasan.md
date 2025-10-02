@@ -1,4 +1,4 @@
-Penjelasan
+Penjelasan secara deskriptif
 
 Bilangan Bulat
 Program ini digunakan untuk menentukan jenis segitiga berdasarkan tiga bilangan bulat sebagai panjang sisi-sisinya.
