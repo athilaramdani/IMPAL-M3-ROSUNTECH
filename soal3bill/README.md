@@ -208,3 +208,7 @@ Program otomatis menginisialisasi 5 akun:
 - ✅ Menu Transaksi Interaktif: User bisa melakukan transaksi berkali-kali tanpa perlu restart program.
 - ✅ Validasi Input : Amount tidak boleh negatif dan input account number tidak boleh kosong.
 - ✅ Invoice dengan Format yang Rapi
+
+**Dibuat oleh: Bill Sembiring**  
+**Bahasa: C**  
+**Tugas: PSPEC - DPPL**
