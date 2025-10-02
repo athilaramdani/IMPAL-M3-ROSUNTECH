@@ -1,4 +1,4 @@
-# 📌 Program Perhitungan Biaya Servis Komputer (C)
+# 📌 Program Perhitungan Biaya Servis Komputer (Java dan C)
 
 ## 📝 Narasi Soal
 Program ini diminta untuk dibuat dalam bahasa C dengan memperhatikan **Preconditions** dan **Postconditions** berikut:
@@ -65,4 +65,4 @@ Dalam konteks ini:
 - Jika akun **valid**, sistem menghasilkan **Invoice** (Postcondition 1).  
 - Jika akun **tidak valid atau tidak ditemukan**, sistem menghasilkan **Error Message** (Postcondition 2).  
 
-Dengan demikian, program ini dapat dipandang sebagai contoh sederhana penerapan **validasi input dan kontrol alur** dalam sebuah sistem transaksi berbasis C.  
+Dengan demikian, program ini dapat dipandang sebagai contoh sederhana penerapan **validasi input dan kontrol alur** dalam sebuah sistem transaksi berbasis C dan Java.  
