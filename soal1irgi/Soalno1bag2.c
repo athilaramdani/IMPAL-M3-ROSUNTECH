@@ -1,3 +1,4 @@
+// soal1irgi\Soalno1bag2.c
 #include <stdio.h>
 #include <math.h>
 #define TOL 0.01   //toleransi 1% (0.01)

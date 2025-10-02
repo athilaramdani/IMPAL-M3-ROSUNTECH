@@ -1,3 +1,4 @@
+// soal1irgi\soal1.c
 #include <stdio.h>
 
 int main() {

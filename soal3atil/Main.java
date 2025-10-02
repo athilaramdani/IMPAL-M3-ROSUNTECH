@@ -1,3 +1,4 @@
+// soal3atil\Main.class
 import java.util.*;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
