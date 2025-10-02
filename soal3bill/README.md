@@ -89,8 +89,7 @@ typedef struct {
 | `findAccount()` | Mencari akun berdasarkan nomor akun |
 | `isValidStatus()` | Mengecek apakah status akun adalah "valid" |
 | `printInvoice()` | Menampilkan invoice dengan format rapi |
-| `process()` | Fungsi utama untuk menjalankan logika pre/post condition:
-validasi akun, cek status, dan buat invoice jika valid |
+| `process()` | Fungsi utama untuk menjalankan logika pre/post condition: validasi akun, cek status, dan buat invoice jika valid |
 
 ---
 
