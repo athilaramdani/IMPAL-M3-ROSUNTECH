@@ -10,7 +10,7 @@ Repository ini berisi implementasi kode dari spesifikasi PSPEC (Process Specific
 📦 root
 ├── 📂 soal1irgi/          # Determine Triangle (C)
 ├── 📂 soal2april/         # Computer Service Billing - Structured (C)
-├── 📂 soal3athila/        # Computer Service Billing - Pre/Post Conditions (Java)
+├── 📂 soal3atil/        # Computer Service Billing - Pre/Post Conditions (Java)
 └── 📂 soal3bill/          # Computer Service Billing - Pre/Post Conditions (C)
 ```
 
@@ -55,7 +55,7 @@ Sistem transaksi dengan validasi akun:
 - **Precondition 1:** Account valid → Invoice
 - **Precondition 2:** Account invalid/tidak ada → Error message
 
-[Lihat Detail Java →](./soal3athila/README.md)  
+[Lihat Detail Java →](./soal3atil/README.md)  
 [Lihat Detail C →](./soal3bill/README.md)
 
 ---
