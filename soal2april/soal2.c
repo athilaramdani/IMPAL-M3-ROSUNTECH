@@ -1,3 +1,5 @@
+// Dikerjakan oleh: Aprilianza Muhammad Yusup
+
 #include <stdio.h>
 
 int main() {
